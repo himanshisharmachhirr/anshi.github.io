@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration | NCC Training</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">🟡 NCC TRAINING</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="registration.html">Registration</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<main>
+
+<section class="content-box form-box">
+
+<h1>Training Registration</h1>
+
+<form onsubmit="registerDemo(event)">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+<option value="">Select Training</option>
+<option>Cadet Training</option>
+<option>Physical Training</option>
+<option>Drill Training</option>
+<option>Leadership Training</option>
+</select>
+
+<button class="btn" type="submit">Register</button>
+
+</form>
+
+<p id="registerMessage"></p>
+
+</section>
+
+</main>
+
+<footer><p>© 2026 Vamika NCC Training</p></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
